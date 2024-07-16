@@ -101,4 +101,21 @@ img{
 .image-text p{
     color: darkslategray;
 }
+.quote-container{
+ background-color: #e5e7eb;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ font-size: 36px;
+ font-weight: lighter;
+ font-style: italic;
+ padding: 80px;
+}
 
+.quote{
+    align-self: flex-end;
+    font-size: 22px;
+    padding-right: 50px;
+    font-weight: bold;
+}
